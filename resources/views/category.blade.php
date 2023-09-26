@@ -14,9 +14,36 @@
 </html>
 @extends('layout.base')
 @section('content')
-<div>
-    <h1>ini page kategori</h1>
-</div>
 
+<h1>Fiksi</h1>
+<div class="gallery">
+    <div class="image">
+        <img src="assets/b1.jpeg" alt="Foto 1">
+    </div>
+    <div class="image">
+        <img src="assets/b5.jpg" alt="Foto 1">
+    </div>
+</div>
+<h1>Non-Fiksi</h1>
+<div class="gallery">
+    <div class="image">
+        <img src="assets/b2.jpg" alt="Foto 1">
+    </div>
+    <div class="image">
+        <img src="assets/b3.jpg" alt="Foto 1">
+    </div>
+    <div class="image">
+        <img src="assets/b4.jpg" alt="Foto 1">
+    </div>
+    <div class="image">
+        <img src="assets/b6.jpg" alt="Foto 1">
+    </div>
+    <div class="image">
+        <img src="assets/b7.jpg" alt="Foto 1">
+    </div>
+    <div class="image">
+        <img src="assets/b8.jpg" alt="Foto 1">
+    </div>
+</div>
 
 @endsection

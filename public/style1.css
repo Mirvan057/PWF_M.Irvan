@@ -27,3 +27,44 @@
             background-attachment: fixed; /* This will make the background fixed */
             /* Add other CSS properties as needed */
         }
+
+
+
+
+
+/* style1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Untuk menyusun 3 kolom di samping */
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
