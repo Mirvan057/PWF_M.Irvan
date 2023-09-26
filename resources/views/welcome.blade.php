@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    
+    <h1>heloo test update</h1>
 </body>
 </html>
 @extends('layout.base')
