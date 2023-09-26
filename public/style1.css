@@ -1,0 +1,29 @@
+        /* Customize the navbar background color */
+        .navbar {
+            background-color: #0099ff; /* You can change this color to your preference */
+        }
+
+        .container {
+            background-color: #212529;
+        }
+
+
+        /* Customize the navbar text color */
+        .navbar-nav .nav-link {
+            color: #fdfbfb; /* You can change this color to your preference */
+        }
+
+        .carousel-item img {
+            padding-top: 50px;
+            display: block;
+            margin: 0 auto; /* Center the images horizontally */
+            max-height: 700px; /* Set the maximum height for consistency */
+        }
+
+        body {
+            background-image: url('assets/bg.jpg');
+            background-size: cover; /* Adjust the size as needed */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This will make the background fixed */
+            /* Add other CSS properties as needed */
+        }
